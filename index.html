@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <title>My Portfolio</title>
 <meta charset="UTF-8">
@@ -16,8 +15,9 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 <nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
   <h3 class="w3-padding-64 w3-center"><b>Sophia<br>Yvonne</b></h3>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
-  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">Home Page</a> 
-  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a> 
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">HOME PAGE</a> 
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a>
+  <a href="#myportfolio" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a> 
   <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
 </nav>
 
@@ -76,7 +76,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <p id="caption"></p>
     </div>
   </div>
-
+  
   <!-- About section -->
   <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about">
     <h4><b>About Me</b></h4>
@@ -93,6 +93,8 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
         
         Outside of my work, I enjoy exploring new places, trying new foods, and spending time with my loved ones. I am excited about the endless possibilities that the future holds for me in the field of photography, web design, and Photoshop, and I can't wait to see what challenges and opportunities lie ahead.
       </p>
+      <p>Age: 20</p>
+      <p>Phone: B24 L1 B Westwoods Village, Upper Carmen, CDO</p>
       <p>Email: gandionco.sophiayvonne10@gmail.com</p>
       <p>Phone: 093558843521</p>
       <hr class="w3-opacity">
@@ -108,10 +110,19 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <p class="w3-wide">Photoshop</p>
       <div class="w3-white">
         <div class="w3-container w3-padding-small w3-center w3-grey" style="width:80%">80%</div>
-      </div>
-      <p><button class="w3-button w3-light-grey w3-padding-large w3-margin-top w3-margin-bottom">Download Resume</button></p>
-      <hr class="w3-opacity">
-        
+        </div>
+
+      
+<!DOCTYPE html>
+  <!--Portfolio section-->
+    <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="Portfolio"></div>
+      <h4><b>My Portfolio</b></h4>
+      <img src="project.png" alt="Me" class="w3-image w3-padding-32" width="600" height="350">
+      <div class="w3-content w3-justify" style="max-width:600px">
+    <h4>Sophia Yvonne Gandioncos</h4>
+    <p> This is our project in Senior Highschool, A website using Google Slides</p>
+    </div>
+</div>
 
   <!-- Contact section -->
   <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
@@ -124,6 +135,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
           <input class="w3-input w3-border" type="text" name="Name" required>
         </div>
         <div class="w3-section">
+          <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a>
           <label>Email</label>
           <input class="w3-input w3-border" type="text" name="Email" required>
         </div>
